@@ -5,11 +5,8 @@
         "includeFiles": "db.json"
       }
     },
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "api/server.js"
-      }
+    "builds": [
+        { "src": "api/server.js", "use": "@vercel/node" }
     ],
     "routes": [
         { "src": "/player", "dest": "/api/player" }
