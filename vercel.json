@@ -5,9 +5,6 @@
         "includeFiles": "db.json"
       }
     },
-    "builds": [
-        { "src": "api/server.js", "use": "@vercel/node" }
-    ],
     "routes": [
         { "src": "/player", "dest": "/api/player" }
     ]
