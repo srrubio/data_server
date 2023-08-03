@@ -16,4 +16,5 @@
       ],
       "routes": [
         { "src": "/player", "dest": "/api/player" }
+      ]
   }
