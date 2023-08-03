@@ -1,10 +1,12 @@
 const jsonServer = require("json-server"); // importing json-server library
-const server = jsonServer.create();
+const express = require("express");
+
+const app = express();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000; //  chose port from here like 8080, 3001
 
-server.use(middlewares);
-server.use(router);
+app.use(middlewares);
+app.use(router);
 
-server.listen(port);
+app.listen(port);
