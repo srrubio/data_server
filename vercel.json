@@ -13,8 +13,8 @@
     ],
     "builds": [
         { "src": "api/server.js", "use": "@vercel/node" }
-      ],
-      "routes": [
+    ],
+    "routes": [
         { "src": "/player", "dest": "/api/player" }
-      ]
+    ]
   }
