@@ -17,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/srrubio/data_server/issues"
   },
-  "homepage": "https://github.com/srrubio/data_server#readme"
+  "homepage": "https://github.com/srrubio/data_server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.3"
+  }
 }
